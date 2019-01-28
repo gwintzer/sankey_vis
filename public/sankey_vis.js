@@ -1,10 +1,6 @@
-import ReactSankeyChart from './components/ReactSankeyChart'
+//import ReactSankeyChart from './vendor/SankeyChart'
+import ReactSankeyChart from './components/ReactSankeyChart.2'
 //import React, { Component, Fragment } from 'react'
-
-import {
-  EuiCode,
-  EuiText
-} from '@elastic/eui'
 
 import { i18n } from '@kbn/i18n'
 import { VisFactoryProvider } from 'ui/vis/vis_factory'

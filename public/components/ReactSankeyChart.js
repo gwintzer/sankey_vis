@@ -1,12 +1,19 @@
 import React, { Component, Fragment } from 'react'
 
 import { 
+  format as d3Format,
+  interpolateRainbow as d3InterpolateRainbow,
+  color as d3Color
+} from 'd3'
+import { 
   sankey as d3Sankey, 
   sankeyCenter, 
-  sankeyLinkHorizontal 
+  sankeyLinkHorizontal,
 } from 'd3-sankey'
 
-import data from '../data'
+import data from '../data/data'
+
+import style from './sankey.css';
 
 import {
   EuiCode,
@@ -14,41 +21,72 @@ import {
 } from '@elastic/eui'
 
 // marge du tableau / graphique
-const margin = 10;
+const margin = { top: 10, right: 10, bottom: 10, left: 10 }
 // largeur
-const width = 1410;
+const width = 1410
 // hauteur
-const height = 750;
+const height = 750
 // couleur de fond du graphique
-const svgBackground = "#eee";
+const svgBackground = "#eee"
 // bord du svg
-const svgBorder = "1px solid #333";
-
+const svgBorder = "1px solid #333"
 
 //   NODE
 // largeur du node
-const nodeWidth = 24;
+const nodeWidth = 24
 // espace entre les noeuds
-const nodePadding = 6;
+const nodePadding = 6
 // opacité des noeuds
-const nodeOpacity = 1;
+const nodeOpacity = 1
 // opacité des liens
-const linkOpacity = 0.5;
+const linkOpacity = 0.5
 // ??
-const nodeDarkenFactor = 0.3;
+const nodeDarkenFactor = 0.3
 //  ???
-const nodeStrokeWidth = 4;
-const arrow = "\u2192";
+const nodeStrokeWidth = 4
+const arrow = "\u2192"
 const nodeAlignment = sankeyCenter
+const colorScale = d3InterpolateRainbow
+let initialMousePosition = {}
+let initialNodePosition = {}
 
 const path = sankeyLinkHorizontal()
 
-const graphSize = [width - 2*margin, height - 2*margin]
+//const graphSize = [width - 2*margin, height - 2*margin]
+
+function addGradientStop(gradients, offset, fn) {
+  return gradients.append("stop")
+                  .attr("offset", offset)
+                  .attr("stop-color", fn);
+}
+
+function color(index) {
+  let ratio = index / (data.nodes.length - 1.0);
+  return colorScale(ratio);
+}
+
+function darkenColor(color, factor) {
+  return d3Color(color).darker(factor)
+}
+
+function getGradientId(d) {
+  return `gradient_${d.source.id}_${d.target.id}`;
+}
 
 // <SankeyChart/>
 export default () => {
+
+  var svgNode = ReactFauxDOM.createElement('div');
+
+
+
+
+
   
-  const sankey = d3Sankey().size(graphSize)
+  const formatNumber = d3Format(",.0f"); // zero decimal places
+  const format = (d) => formatNumber(d);
+  
+  const sankey = d3Sankey().size([width, height])
                           .nodeId(d => d.id)
                           .nodeWidth(nodeWidth)
                           .nodePadding(nodePadding)
@@ -59,18 +97,69 @@ export default () => {
 
   console.log(graph.nodes)
   console.log(graph.links)
-  
-  return (
-    <svg width={width} height={height}>
-      <g fill="none" stroke="#000" strokeOpacity="0.2"></g>
-      <g className="links">
-        <path d={graph.links} />
+
+  // Loop through the nodes. Set additional properties to make a few things
+  // easier to deal with later.
+  graph.nodes.forEach(node => {
+    let fillColor = color(node.id);
+    node.fillColor = fillColor;
+    node.strokeColor = darkenColor(fillColor, nodeDarkenFactor);
+    node.width = node.x1 - node.x0;
+    node.height = node.y1 - node.y0;
+  });
+
+  // Above D3 manipaluation equal to following jsx if didn't rely on faux-dom 
+  // ------------------------------------------------------------------------
+  var links = graph.links.map((link, i) => {
+    return (
+      <g key={i}>
+        <path className="link" onClick={()=>{this.props.openModal(link)}} d={path(link)} /*style={{strokeWidth: Math.max(1, link.dy)}}*/>
+          <title>{link.source.id + " → " + link.target.id + "\n Weight: " + format(link.value)}</title>
+        </path>
       </g>
-      <g className="nodes">
-        <path d={graph.nodes} />
+    );
+  });
+
+  var nodes = graph.nodes.map((node, i) => {
+
+    node.dy = node.y1 - node.y0
+    node.dx = node.x1 - node.x0
+
+    return (
+      <g key={i} className="node" onClick={()=>{this.props.openModal(node)}} transform={"translate(" + node.dx + "," + node.dy + ")"}>
+        <rect height={node.dy} width={sankey.nodeWidth()}>
+          <title>{node.id + "\n" + format(node.value)}</title>
+        </rect>
+        { (node.x >= width / 2) ? 
+          <text x={-6} y={node.dy / 2} dy={".35em"} textAnchor={"end"} >{node.name}</text> :
+          <text x={6 + sankey.nodeWidth()} /*y={node.dy / 2}*/ dy={".35em"} textAnchor={"start"} >{node.name}</text>
+        }
+      </g>
+    );
+  });
+
+  // JSX rendering return if didn't rely on faux-dom
+  // ------------------------------------------------------------------------
+  return (
+    <svg width={width + margin.left + margin.right} height={height + margin.top + margin.bottom}>
+      <g transform={"translate(" + margin.left + "," + margin.top + ")"}>
+        {links}
+        {nodes}
       </g>
     </svg>
-  )
+  );
+  
+  // return (
+  //   <svg width={width} height={height}>
+  //     <g fill="none" stroke="#000" strokeOpacity="0.2"></g>
+  //     <g className="links">
+  //       <path d={graph.links} />
+  //     </g>
+  //     <g className="nodes">
+  //       <path d={graph.nodes} />
+  //     </g>
+  //   </svg>
+  // )
 }
 
 
