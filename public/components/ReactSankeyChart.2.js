@@ -1,312 +1,154 @@
-import React, { Component } from 'react'
-import ReactFauxDOM from 'react-faux-dom'
-
-
-import * as d3Core from 'd3'
-import * as d3Sankey from 'd3-sankey'
-
-const d3 = {
-  ...d3Core,
-  ...d3Sankey
-}
+import React from 'react';
+import ReactFauxDOM from 'react-faux-dom';
+import * as d3 from 'd3';
+import 'd3-plugins-sankey';
+import _ from 'lodash';
 
 import data from '../data/data.json'
 
-// marge du tableau / graphique
-const margin = 10;
-// largeur
-const width = 900;
-// hauteur
-const height = 600;
-// couleur de fond du graphique
-const svgBackground = "#eee";
-// bord du svg
-const svgBorder = "1px solid #333";
+export default class extends React.Component {
+  constructor(props) {
+    super(props);
 
-
-//   NODE
-// largeur du node
-const nodeWidth = 24;
-// espace entre les noeuds
-const nodePadding = 6;
-// opacité des noeuds
-const nodeOpacity = 1;
-// opacité des liens
-const linkOpacity = 0.5;
-// ??
-const nodeDarkenFactor = 0.3;
-//  ???
-const nodeStrokeWidth = 4;
-const arrow = "\u2192";
-const nodeAlignment = d3.sankeyCenter;
-const colorScale = d3.interpolateRainbow;
-const path = d3.sankeyLinkHorizontal();
-let initialMousePosition = {};
-let initialNodePosition = {};
-
-function addGradientStop(gradients, offset, fn) {
-    return gradients.append("stop")
-                    .attr("offset", offset)
-                    .attr("stop-color", fn);
-}
-
-// color v1
-// function color(index) {
-//     let ratio = index / (data.nodes.length - 1.0);
-//     return colorScale(ratio);
-// }
-
-// color v2
-// const colorize = d3.scaleOrdinal(d3.schemeCategory10)
-// function color(name) {
-//   return colorize(name.replace(/ .*/, ""))
-// }
-
-function darkenColor(color, factor) {
-    return d3.color(color).darker(factor)
-}
-
-function getGradientId(d) {
-    return `gradient_${d.source.id}_${d.target.id}`;
-}
-
-function getMousePosition(e) {
-    e = e || d3.event;
-    return {
-        x: e.x,
-        y: e.y
+    this.state = {
+      nodes: props.nodes || data.nodes, 
+      links: props.links || data.links
     };
-}
 
-function getNodePosition(node) {
-    return {
-        x: +node.attr("x"),
-        y: +node.attr("y"),
-        width: +node.attr("width"),
-        height: +node.attr("height")
+    this.nodeWidth = props.nodeWidth || 25; // default 25 pixels
+    this.width = props.width || 690; // default 690 pixels
+    this.height = props.height || 400; // default 400 pixels
+    this.nodeColor = props.nodeColor || '#888888';
+    this.linkColor = props.linkColor || '#cccccc';
+  }
+
+
+  render() {
+    // ========================================================================
+    // Set units, margin, sizes
+    // ========================================================================
+    var margin = { top: 10, right: 0, bottom: 10, left: 0 };
+    var width = this.width - margin.left - margin.right;
+    var height = this.height - margin.top - margin.bottom;
+
+    var formatNumber = d3.format(",.0f"); // zero decimal places
+    var format = (d) => formatNumber(d);
+
+    // ========================================================================
+    // Set the sankey diagram properties
+    // ========================================================================
+    var sankey = d3.sankey()
+      .size([width, height])
+      .nodeWidth(this.nodeWidth)
+      .nodePadding(10);
+
+    var path = sankey.link();
+
+    var graph = {
+      nodes: _.cloneDeep(this.state.nodes),
+      links: _.cloneDeep(this.state.links)
     };
-}
 
-function moveNode(node, position) {
-    position.width = position.width || +(node.attr("width"));
-    position.height = position.height || +(node.attr("height"));
-    if (position.x < 0) {
-        position.x = 0;
-    }
-    if (position.y < 0) {
-        position.y = 0;
-    }
-    if (position.x + position.width > graphSize[0]) {
-        position.x = graphSize[0] - position.width;
-    }
-    if (position.y + position.height > graphSize[1]) {
-        position.y = graphSize[1] - position.height;
-    }
-    node.attr("x", position.x)
-        .attr("y", position.y);
-    let nodeData = node.data()[0];
-    nodeData.x0 = position.x
-    nodeData.x1 = position.x + position.width;
-    nodeData.y0 = position.y;
-    nodeData.y1 = position.y + position.height;
-    sankey.update(graph);
-    svgLinks.selectAll("linearGradient")
-            .attr("x1", d => d.source.x1)
-            .attr("x2", d => d.target.x0);
-    svgLinks.selectAll("path")
-            .attr("d", path);
-}
+    sankey.nodes(graph.nodes)
+      .links(graph.links)
+      .layout(32);
 
-function onDragDragging() {
-    let currentMousePosition = getMousePosition(d3.event);
-    let delta = {
-        x: currentMousePosition.x - initialMousePosition.x,
-        y: currentMousePosition.y - initialMousePosition.y
-    };
-    let thisNode = d3.select(this);
-    let newNodePosition = {
-        x: initialNodePosition.x + delta.x,
-        y: initialNodePosition.y + delta.y,
-        width: initialNodePosition.width,
-        height: initialNodePosition.height
-    };
-    moveNode(thisNode, newNodePosition);        
-}
-
-function onDragEnd() {
-    let node = d3.select(this)
-                 .attr("stroke-width", 0);
-}
-
-function onDragStart() {
-    let node = d3.select(this)
-                 .raise()
-                 .attr("stroke-width", nodeStrokeWidth + 2);
-    setInitialNodePosition(node);
-    initialNodePosition = getNodePosition(node);
-    initialMousePosition = getMousePosition(d3.event);
-}
-
-function reduceUnique(previous, current) {
-    if (previous.indexOf(current) < 0) {
-        previous.push(current);
-    }
-    return previous;
-}
-
-function setInitialNodePosition(node) {
-    let pos = node ? getNodePosition(node) : { x: 0, y: 0, width: 0, height: 0 };
-    initialNodePosition.x = pos.x;
-    initialNodePosition.y = pos.y;
-    initialNodePosition.width = pos.width;
-    initialNodePosition.height = pos.height;
-}
+    // ========================================================================
+    // Initialize and append the svg canvas to faux-DOM
+    // ========================================================================
+    var svgNode = ReactFauxDOM.createElement('div');
     
-function sumValues(previous, current) {
-    previous += current;
-    return previous;
-}
+    var svg = d3.select(svgNode).append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-function sankey({nodes, links}) {
-  sankey = d3.sankey()
-    .size(width, height)
-    .nodeWidth(nodeWidth)
-    .nodePadding(nodePadding)
-    .nodeAlign(nodeAlignment)
-    .extent([[1, 1], [width - 1, height - 5]]);
-  return sankey({
-    nodes: nodes.map(d => Object.assign({}, d)),
-    links: links.map(d => Object.assign({}, d))
-  });
-}
+    // ========================================================================
+    // Add links
+    // ========================================================================
+    var link = svg.append("g").selectAll(".link")
+      .data(graph.links)
+      .enter().append("path")
+      .attr("class", "link")
+      .attr("stroke", this.linkColor)
+      .on('click', this.props.openModal) // register eventListener
+      .attr("d", path)
+      .style("stroke-width", (d) => Math.max(1, d.dy))
 
-function chart() {
-  
-  var canvas = ReactFauxDOM.createElement('div')
+    // add link titles
+    link.append("title")
+      .text((d) => d.source.name + " → " + d.target.name + "\n Weight: " + format(d.value));
 
-  const svg = d3.select(canvas).append('svg')
-                .attr("width", width)
-                .attr("height", height)
-                .style("background-color", svgBackground)
-                .style("border", svgBorder)
-                .append("g")
-                .attr("transform", `translate(${margin},${margin})`);
-  
-  // Define our sankey instance.
-  const graphSize = [width - 2*margin, height - 2*margin];
-  const sankey = d3.sankey()
-                    .size(graphSize)
-                    .nodeId(d => d.id)
-                    .nodeWidth(nodeWidth)
-                    .nodePadding(nodePadding)
-                    .nodeAlign(nodeAlignment);
+    // ========================================================================
+    // Add nodes
+    // ========================================================================
+    var node = svg.append("g").selectAll(".node")
+      .data(graph.nodes)
+      .enter().append("g")
+      .attr("class", "node")
+      .on('click', this.props.openModal) // register eventListener
+      .attr("transform", (d) => "translate(" + d.x + "," + d.y + ")")
 
+    // add nodes rect
+    node.append("rect")
+      .attr("height", (d) => d.dy)
+      .attr("width", sankey.nodeWidth())
+      .attr("fill", this.nodeColor)
+      .append("title")
+      .text((d) => d.name + "\n" + format(d.value));
 
-  let graph = sankey(data);
-  
-  // Loop through the nodes. Set additional properties to make a few things
-  // easier to deal with later.
-  graph.nodes.forEach(node => {
-      let fillColor = color(node.id);
+    // add nodes text
+    node.append("text")
+      .attr("x", -6)
+      .attr("y", (d) => d.dy / 2)
+      .attr("dy", ".35em")
+      .attr("text-anchor", "end")
+      .text((d) => d.name)
+      .filter((d) => d.x < width / 2)
+      .attr("x", 6 + sankey.nodeWidth())
+      .attr("text-anchor", "start");
 
-      node.fillColor = fillColor;
-      node.strokeWidth = nodeStrokeWidth
-      node.strokeColor = darkenColor(fillColor, nodeDarkenFactor)
-      node.width = node.x1 - node.x0
-      node.height = node.y1 - node.y0
-  });
-  
-  // Build the links.
-  let svgLinks = svg.append("g")
-                    .classed("links", true)
-                    .selectAll("g")
-                    .data(graph.links)
-                    .enter()
-                    .append("g");
-  let gradients = svgLinks.append("linearGradient")
-                          .attr("gradientUnits", "userSpaceOnUse")
-                          .attr("x1", d => d.source.x1)
-                          .attr("x2", d => d.target.x0)
-                          .attr("id", d => getGradientId(d));
-  addGradientStop(gradients, 0.0, d => color(d.source.index));
-  addGradientStop(gradients, 1.0, d => color(d.target.index));
-  svgLinks.append("path")
-          .classed("link", true)
-          .attr("d", path)
-          .attr("fill", "none")
-          .attr("stroke", d => `url(#${getGradientId(d)})`)
-          .attr("stroke-width", d => Math.max(1.0, d.width))
-          .attr("stroke-opacity", linkOpacity);
-  
-  // Add hover effect to links.
-  svgLinks.append("title")
-          .text(d => `${d.source.id} ${arrow} ${d.target.id}\n${d.value}`);
+    // Above D3 manipaluation equal to following jsx if didn't rely on faux-dom 
+    // ------------------------------------------------------------------------
+    // var links = graph.links.map((link, i) => {
+    //   return (
+    //     <g>
+    //       <path key={i} className="link" onClick={()=>{this.props.openModal(link)}} d={path(link)} style={{strokeWidth: Math.max(1, link.dy)}}>
+    //         <title>{link.source.name + " → " + link.target.name + "\n Weight: " + format(link.value)}</title>
+    //       </path>
+    //     </g>
+    //   );
+    // });
 
-  let svgNodes = svg.append("g")
-                    .classed("nodes", true)
-                    .selectAll("rect")
-                    .data(graph.nodes)
-                    .enter()
-                    .append("rect")
-                    .classed("node", true)
-                    .attr("x", d => d.x0)
-                    .attr("y", d => d.y0)
-                    .attr("width", d => d.width)
-                    .attr("height", d => d.height)
-                    .attr("fill", d => d.fillColor)
-                    .attr("opacity", nodeOpacity)
-                    .attr("stroke", d => d.strokeColor)
-                    .attr("stroke-width", 0);
-  
-  let nodeDepths = graph.nodes
-      .map(n => n.depth)
-      .reduce(reduceUnique, []);
-  
-  nodeDepths.forEach(d => {
-      let nodesAtThisDepth = graph.nodes.filter(n => n.depth === d);
-      let numberOfNodes = nodesAtThisDepth.length;
-      let totalHeight = nodesAtThisDepth
-                          .map(n => n.height)
-                          .reduce(sumValues, 0);
-      let whitespace = graphSize[1] - totalHeight;
-      let balancedWhitespace = whitespace / (numberOfNodes + 1.0);
-      console.log("depth", d, "total height", totalHeight, "whitespace", whitespace, "balanced whitespace", balancedWhitespace);
-  });
-  
-  // Add hover effect to nodes.
-  svgNodes.append("title")
-          .text(d => `${d.id}\n${d.value} unit(s)`);
-  
-  svgNodes.append("text")
-          .text(d => `${d.id}\n${d.value} unit(s)`);
-          
-  let svgTexts = svg.append("g")
-    .style("font", "10px sans-serif")
-    .selectAll("text")
-    .data(graph.nodes)
-    .enter().append("text")
-    .attr("x", d => d.x0 < width / 2 ? d.x1 + 6 : d.x0 - 6)
-    .attr("y", d => (d.y1 + d.y0) / 2)
-    .attr("dy", "0.35em")
-    .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-    .text(d => d.id)
+    // var nodes = graph.nodes.map((node, i) => {
+    //   return (
+    //     <g key={i} className="node" onClick={()=>{this.props.openModal(node)}} transform={"translate(" + node.x + "," + node.y + ")"}>
+    //       <rect height={node.dy} width={sankey.nodeWidth()}>
+    //         <title>{node.name + "\n" + format(node.value)}</title>
+    //       </rect>
+    //       { (node.x >= width / 2) ? 
+    //         <text x={-6} y={node.dy / 2} dy={".35em"} textAnchor={"end"} >{node.name}</text> :
+    //         <text x={6 + sankey.nodeWidth()} y={node.dy / 2} dy={".35em"} textAnchor={"start"} >{node.name}</text>
+    //       }
+    //     </g>
+    //   );
+    // });
 
-  svgNodes.call(d3.drag()
-                  .on("start", onDragStart)
-                  .on("drag", onDragDragging)
-                  .on("end", onDragEnd)); 
+    // ========================================================================
+    // Render the faux-DOM to React elements
+    // ========================================================================
+    return svgNode.toReact();
 
-
-  return svg.node()
-}
-
-// <SankeyChart/>
-export default () => {
-
-  const reactChart = chart().toReact()
-  return (
-    <svg width="900px" height="600px">
-      {reactChart}
-    </svg>
-  )
+    // JSX rendering return if didn't rely on faux-dom
+    // ------------------------------------------------------------------------
+    // return (
+    //   <svg width={width + margin.left + margin.right} height={height + margin.top + margin.bottom}>
+    //     <g transform={"translate(" + margin.left + "," + margin.top + ")"}>
+    //       {links}
+    //       {nodes}
+    //     </g>
+    //   </svg>
+    // );
+  }
 }

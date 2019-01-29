@@ -1,25 +1,23 @@
 import React from 'react';
 import ReactFauxDOM from 'react-faux-dom';
 import * as d3 from 'd3';
-import 'd3-plugins-sankey';
+import { 
+  sankey as d3Sankey, 
+  sankeyLinkHorizontal,
+} from 'd3-sankey'
+
 import _ from 'lodash';
 
 import data from '../data/data.json'
 
 export default class extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super()
 
     this.state = {
-      nodes: props.nodes || data.nodes, 
-      links: props.links || data.links
+      nodes: data.nodes, 
+      links: data.links
     };
-
-    this.nodeWidth = props.nodeWidth || 25; // default 25 pixels
-    this.width = props.width || 690; // default 690 pixels
-    this.height = props.height || 400; // default 400 pixels
-    this.nodeColor = props.nodeColor || '#888888';
-    this.linkColor = props.linkColor || '#cccccc';
   }
 
 
@@ -28,18 +26,18 @@ export default class extends React.Component {
     // Set units, margin, sizes
     // ========================================================================
     var margin = { top: 10, right: 0, bottom: 10, left: 0 };
-    var width = this.width - margin.left - margin.right;
-    var height = this.height - margin.top - margin.bottom;
+    var width = 690 - margin.left - margin.right;
+    var height = 400 - margin.top - margin.bottom;
 
-    var formatNumber = d3.format(",.0f"); // zero decimal places
     var format = (d) => formatNumber(d);
+    var formatNumber = d3.format(",.0f"); // zero decimal places
 
     // ========================================================================
     // Set the sankey diagram properties
     // ========================================================================
-    var sankey = d3.sankey()
+    var sankey = d3Sankey()
       .size([width, height])
-      .nodeWidth(this.nodeWidth)
+      .nodeWidth(15)
       .nodePadding(10);
 
     var path = sankey.link();
@@ -71,7 +69,6 @@ export default class extends React.Component {
       .data(graph.links)
       .enter().append("path")
       .attr("class", "link")
-      .attr("stroke", this.linkColor)
       .on('click', this.props.openModal) // register eventListener
       .attr("d", path)
       .style("stroke-width", (d) => Math.max(1, d.dy))
@@ -94,7 +91,6 @@ export default class extends React.Component {
     node.append("rect")
       .attr("height", (d) => d.dy)
       .attr("width", sankey.nodeWidth())
-      .attr("fill", this.nodeColor)
       .append("title")
       .text((d) => d.name + "\n" + format(d.value));
 
