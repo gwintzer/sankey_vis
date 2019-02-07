@@ -35,24 +35,31 @@ import AggConfigResult from 'ui/vis/agg_config_result';
 export function splitRowsOnColumn(rows, columnId) {
   const resultsMap = {}; // Used to preserve types, since object keys are always converted to strings.
   return {
-    rowsGroupedByResult: rows.reduce((acc, row) => {
-      const { [columnId]: splitValue, ...rest } = row;
+    rowsGroupedByResult: rows.reduce((acc, row) => { // reduce prend en paramètre une fonction qui elle-même
+      //prend en paramètres au moins 2 paramètres : ''total'' et ''currentValue'' : total prend la première
+      //valeur du tableau ou bien la valeur retournée par la fonction tandis que currentValue prend la valeur
+      //courante du tableau parcouru. La fonction va donc boucler x fois, x étant la taille du tableau.
+      const { [columnId]: splitValue, ...rest } = row; // "..." --> spread syntax : ...tab <=> les valeurs du
+      //tableaux. Par exemple si tab = [1, 2, 3] alors sum(...tab) = 6.
       resultsMap[splitValue] = splitValue;
       acc[splitValue] = [...(acc[splitValue] || []), rest];
       return acc;
     }, {}),
-    results: Object.values(resultsMap),
+    results: Object.values(resultsMap), // Object.values(objet) permet de retourner les valeurs de l'objet sous
+    //forme de tableau
   };
 }
 
 //dans cette méthode on pré-formate le tableau des données récupéré dans table.columns et table.rows
 export function splitTable(columns, rows, $parent) {
-  const splitColumn = columns.find(column => get(column, 'aggConfig.schema.name') === 'split');
+  const splitColumn = columns.find(column => get(column, 'aggConfig.schema.name') === 'split'); //tab.find(fonction)
+  //retourne la première valeur définie dans la fonction trouvée dans le tableau tab.
 
   if (!splitColumn) {
     return [{
       $parent,
-      columns: columns.map(column => ({ title: column.name, ...column })),
+      columns: columns.map(column => ({ title: column.name, ...column })), //tab.map(fonction) crée un tableau avec
+      //les résultats de la fonction appelée pour chaque élément de tab
       rows: rows.map(row => {
         return columns.map(column => {
           return new AggConfigResult(column.aggConfig, $parent, row[column.id], row[column.id]);
@@ -61,7 +68,8 @@ export function splitTable(columns, rows, $parent) {
     }];
   }
 
-  const splitColumnIndex = columns.findIndex(column => column.id === splitColumn.id);
+  const splitColumnIndex = columns.findIndex(column => column.id === splitColumn.id); // tab.findIndex(fonction) retourne l'index correspondant
+  //à ce que l'on recherche dans la fonction donnée en paramètre
   const splitRows = splitRowsOnColumn(rows, splitColumn.id);
 
   // Check if there are buckets after the first metric.
@@ -98,5 +106,7 @@ export function splitTable(columns, rows, $parent) {
 //l'utilisation du responseHandler est obligatoire si on veut accéder directement au tableau de données "table",
 //plutôt qu'utiliser l'incompréhensible objet visData passé dans "render"
 export async function legacyTableResponseHandler(table) {
-  return { tables: splitTable(table.columns, table.rows, null) };
+  console.log("table : ", table)
+  //return { tables: splitTable(table.columns, table.rows, null)};
+  return { tables: (table.columns, table.rows, null)};
 }
