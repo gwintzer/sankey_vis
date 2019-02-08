@@ -4,26 +4,14 @@ import { i18n } from '@kbn/i18n'
 import { VisFactoryProvider } from 'ui/vis/vis_factory'
 import { VisTypesRegistryProvider } from 'ui/registry/vis_types'
 import { Schemas } from 'ui/vis/editors/default/schemas'
-import { legacyTableResponseHandler } from './legacy_response_handler';
-import legacyTableRequestHandler from './legacy_request_handler';
-import { VisController } from './vis_controller';
+import { sankeyResponseHandler } from './sankey_response_handler';
+import { SankeyRequestHandlerProvider } from './sankey_request_handler';
+
 
 const SankeyVisType = (Private) => {
-
-  const myRequestHandler = async (vis, appState, uiState, searchSource) => {
-    console.log ("requestHandler", arguments)
-    const data = { searchSource }
-    console.log("data de requestHandler : ", data)
-    return data;
-  };
-
-  const myResponseHandler = () => {
-    console.log ("responseHandler", arguments)
-    //console.log("data de responseHandler : ", data)
-    return { data: "responseHandler", response: "ok" }
-  }
-
-  const VisFactory = Private(VisFactoryProvider)
+  
+  const VisFactory = Private(VisFactoryProvider);
+  const sankeyRequestHandler = Private(SankeyRequestHandlerProvider).handler;
 
   return VisFactory.createReactVisualization({
     name: 'sankey_vis',
@@ -31,22 +19,15 @@ const SankeyVisType = (Private) => {
     type: 'table',
     icon: 'kqlFunction',
     description: 'Display a sankey visualization',
-    // visualization: visController,
+
     visConfig: {
       component: ReactSankeyChart
     },
-    //requestHandler: myRequestHandler,
-    //requestHandler: courier,
-    requestHandler: legacyTableRequestHandler,
-    responseHandler: legacyTableResponseHandler,
-    //responseHandler: myResponseHandler,
-    // legacyTableResponseHandler, //appel au fichier legacy_response_handler qui sert à extraire le tableau des données du "visData",
-    // responseHandlerConfig: {
-    //   asAggConfigResults: true
-    // }
-    responseHandlerConfig: {
-      asAggConfigResults: true
-    },
+    
+    requestHandler: sankeyRequestHandler,
+    responseHandler: sankeyResponseHandler,
+    
+    
     editorConfig: {
       schemas: new Schemas([
         {
@@ -76,6 +57,5 @@ const SankeyVisType = (Private) => {
     }
   });
 }
-
 
 VisTypesRegistryProvider.register(SankeyVisType);

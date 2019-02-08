@@ -15,22 +15,14 @@ const d3 = {
   ...d3Sankey
 }
 
-import data from '../data/data.json'
-//import data from '/home/mbaillie/workspace/kibana-extra/sankey_vis/public/data/data.json'
-//import data from '../legacy_response_handler.js'
-
-
 // <SankeyChart/>
 export default ({vis, appState, updateStatus, visData}) => {
 
-  //const data = visData
   console.log("vis", vis)
   console.log("appState", appState)
   console.log("updateStatus", updateStatus)
-  console.log("visData ReactSankeyChart.js", visData)
+  console.log("visData", visData)
   
-// CODE PASCAL CHANAS
-
   // largeur
   const width = vis.size[0]
   // hauteur
@@ -97,14 +89,9 @@ export default ({vis, appState, updateStatus, visData}) => {
     return previous
   }
 
-// FIN CODE PASCAL CHANAS
-
   function chart() {
     
-    var canvas = ReactFauxDOM.createElement('div') //permet de faire le
-    //lien entre D3 et React
-
-// CODE PASCAL CHANAS
+    var canvas = ReactFauxDOM.createElement('div')
 
     const svg = d3.select(canvas).append('svg')
                   .attr("width", width)
@@ -114,7 +101,6 @@ export default ({vis, appState, updateStatus, visData}) => {
                   .append("g")
                   .attr("transform", `translate(${margin},${margin})`)
     
-    // Define our sankey instance.
     const graphSize = [width - 2*margin, height - 2*margin]
     const sankey = d3.sankey()
                       .size(graphSize)
@@ -125,8 +111,7 @@ export default ({vis, appState, updateStatus, visData}) => {
                       .extent([[1, 1], [width - 1, height - 5]])
 
 
-    let graph = sankey(data)
-    //let graph = sankey(visData)
+    let graph = sankey(visData)
     
     // Loop through the nodes. Set additional properties to make a few things
     // easier to deal with later.
@@ -203,9 +188,7 @@ export default ({vis, appState, updateStatus, visData}) => {
     
     svgNodes.append("text")
             .text(d => `${d.id}\n${d.value} unit(s)`);
- 
-// FIN CODE PASCAL CHANAS            
-
+            
     let svgLabels = svg.append("g")
       .style("font", "10px sans-serif")
       .selectAll("text")
@@ -221,16 +204,11 @@ export default ({vis, appState, updateStatus, visData}) => {
     return svg.node()
   }
   
-  const reactChart = chart().toReact() // "transforme" le contenu D3
-  // en React
+  const reactChart = chart().toReact()
 
   return (
-    <svg  
-      width={vis.size[0]} height={vis.size[1]}
-    >
-      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    <svg width={vis.size[0]} height={vis.size[1]}>
       {reactChart}
     </svg>
   )
 }
-
