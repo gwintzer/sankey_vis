@@ -1,12 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import ReactFauxDOM from 'react-faux-dom'
 
-import {
-  EuiFlexGroup,
-  EuiFlexItem,
-  EuiSpacer
-} from '@elastic/eui'
-
 import * as d3Core from 'd3'
 import * as d3Sankey from 'd3-sankey'
 
@@ -15,42 +9,41 @@ const d3 = {
   ...d3Sankey
 }
 
-import data from '../data/data.json'
-//import data from '/home/mbaillie/workspace/kibana-extra/sankey_vis/public/data/data.json'
-//import data from '../legacy_response_handler.js'
+//import data from '../data/data.json'
 
 
 // <SankeyChart/>
 export default ({vis, appState, updateStatus, visData}) => {
 
-  //const data = visData
+  const mydata = visData
+
   console.log("vis", vis)
   console.log("appState", appState)
   console.log("updateStatus", updateStatus)
   console.log("visData ReactSankeyChart.js", visData)
   
-// CODE PASCAL CHANAS
+// VISUALIZATION CODE (DRAWING)
 
-  // largeur
+  // width
   const width = vis.size[0]
-  // hauteur
+  // heigth
   const height = vis.size[1]
-  // marge du tableau / graphique
+  // margin of the table / graph
   const margin = 10
-  // couleur de fond du graphique
+  // background's color of the graph
   const svgBackground = "#eee"
-  // bord du svg
+  // svg border
   const svgBorder = "1px solid #333"
 
 
   //   NODE
-  // largeur du node
+  // node width
   const nodeWidth = 30
-  // espace entre les noeuds
+  // space between nodes
   const nodePadding = 6
-  // opacité des noeuds
+  // nodes opacity
   const nodeOpacity = 1
-  // opacité des liens
+  // links opacity
   const linkOpacity = 0.5
   // ??
   const nodeDarkenFactor = 0.3
@@ -97,14 +90,13 @@ export default ({vis, appState, updateStatus, visData}) => {
     return previous
   }
 
-// FIN CODE PASCAL CHANAS
+// END OF FIRST PART VISUALIZATION CODE
 
-  function chart() {
+  function chart(mydata) {
     
-    var canvas = ReactFauxDOM.createElement('div') //permet de faire le
-    //lien entre D3 et React
+    var canvas = ReactFauxDOM.createElement('div') //make the link between react and d3
 
-// CODE PASCAL CHANAS
+// VISUALIZATION CODE
 
     const svg = d3.select(canvas).append('svg')
                   .attr("width", width)
@@ -124,9 +116,7 @@ export default ({vis, appState, updateStatus, visData}) => {
                       .nodeAlign(nodeAlignment)
                       .extent([[1, 1], [width - 1, height - 5]])
 
-
-    let graph = sankey(data)
-    //let graph = sankey(visData)
+    let graph = sankey(mydata)
     
     // Loop through the nodes. Set additional properties to make a few things
     // easier to deal with later.
@@ -204,7 +194,7 @@ export default ({vis, appState, updateStatus, visData}) => {
     svgNodes.append("text")
             .text(d => `${d.id}\n${d.value} unit(s)`);
  
-// FIN CODE PASCAL CHANAS            
+// END OF VISUALIZATION CODE       
 
     let svgLabels = svg.append("g")
       .style("font", "10px sans-serif")
@@ -221,14 +211,12 @@ export default ({vis, appState, updateStatus, visData}) => {
     return svg.node()
   }
   
-  const reactChart = chart().toReact() // "transforme" le contenu D3
-  // en React
+  const reactChart = chart(mydata).toReact() // "transform" D" contents in React
 
-  return (
+  return ( //if you put something there, it will be put in the display window
     <svg  
       width={vis.size[0]} height={vis.size[1]}
     >
-      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
       {reactChart}
     </svg>
   )
