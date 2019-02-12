@@ -1,5 +1,6 @@
 { "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
 { "type": "links", "source": "W1_AA", "target": "W1_AA", "weight": 300 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
 { "type": "links", "source": "W1_AB", "target": "W2_AB", "weight": 270 }
 { "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
 { "type": "links", "source": "W1_AB", "target": "W2_DA", "weight": 1 }
