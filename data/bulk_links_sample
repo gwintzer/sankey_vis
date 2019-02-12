@@ -1,0 +1,1252 @@
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_AB", "weight": 270 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_RV", "weight": 14 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty-ANN", "weight": 81 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_TC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty-DMS", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty-RRC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty-RMC", "weight": 21 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty-ANC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty", "weight": 24 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_PP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_empty-ETU", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_AB", "target": "W2_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-DOS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_AB", "weight": 122 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-ANN", "weight": 112 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_TC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_ET", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-ANC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-DMS", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_RV", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-MAT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-RMC", "weight": 27 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_CP-TVC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_MC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_RR", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_AB-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-DFA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_AB", "target": "W3_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_TC", "weight": 237 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_empty-ANN", "weight": 21 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_CP-TVC", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_IC-TVC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_empty", "weight": 20 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_empty-ANC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_RV", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_PP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_BL-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_TC", "target": "W2_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_TC", "weight": 195 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_RV", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_empty-ANN", "weight": 22 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_empty", "weight": 16 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_CP-TVC", "weight": 20 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_empty-ETU", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_PP-TVC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_IC-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_TC", "target": "W3_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_TC", "weight": 137 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_CP-TVC", "weight": 38 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_empty-ANN", "weight": 27 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_IC-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_RV", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_empty-RRC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_TC", "target": "W4_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_CP-TVC", "weight": 28 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_TC", "weight": 69 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_empty-ANN", "weight": 37 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_PR-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_VA-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_empty-ANC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_empty-ETU", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_TC", "target": "W5_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_MC", "weight": 149 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_ET", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_RV", "weight": 12 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_TC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_BL-PBC", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_AB", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty-ANN", "weight": 16 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_BL-ORT", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_BL", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_MC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_PR-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_AI-ORT", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_VA-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty-RMC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_AU-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty-ANC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty-DMS", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_ET-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_VA-PBC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_RR", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_MC", "target": "W2_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_MC", "weight": 105 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty-ANC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_BL-ORT", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_AI-ORT", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty-ANN", "weight": 23 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_BL-PBC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty-RRC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_RV", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_AB", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_MC-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty-TOK", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_BL", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_TC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_MC", "target": "W3_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_MC", "weight": 72 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_empty-ANN", "weight": 19 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_MC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_BL-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_AU-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_INEO PROD FTTH-W85", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_CP-TVC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_empty-ANC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_empty-DFA", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_MC", "target": "W4_AI-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_MC", "weight": 41 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_BL-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty-ANN", "weight": 15 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_RV", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_MC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty-ANC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty-ETU", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_AI-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_TC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_CP-TVC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty-RMC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_PP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_MC", "target": "W5_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_CP-TVC", "weight": 14 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_VA-ORT", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty-DFA", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty-ANN", "weight": 10 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_MC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_BL-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty-SOGETREL 2015", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_MC", "target": "W6_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_VA-ORT", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_BL-ORT", "weight": 29 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_RV", "weight": 219 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_MC", "weight": 14 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-DMS", "weight": 10 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_TC", "weight": 14 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-ETU", "weight": 16 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_CP-TVC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_PR-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_AB", "weight": 15 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_DA", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_BL", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_AI-ORT", "weight": 18 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_RV-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-ANN", "weight": 39 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_BL-PBC", "weight": 23 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-PAD", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty", "weight": 15 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-RRC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-TOK", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_RV-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-ANC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_BL-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_VA-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_ET-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_AP-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_RV-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_RV-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RV", "target": "W2_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_RV", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty-ANN", "weight": 18 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_DA", "weight": 45 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty-ETU", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_ET-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_DA", "target": "W2_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_AB", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_RV", "weight": 146 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_BL-PBC", "weight": 11 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_MC", "weight": 9 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_TC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-ANN", "weight": 26 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-ETU", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_PR-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_AI-ORT", "weight": 14 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-RRC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_Avez-vous un TPE ?|=Non-Avez-vous un FAX ?=Non", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_BL-ORT", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-ANC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_RV-REO", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_CP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_RV-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_ET-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-DOS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-DFA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RV", "target": "W3_empty-RMF", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_CP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_AB", "weight": 73 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_empty-ANN", "weight": 40 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_empty", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_IC-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_empty-ANC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_empty-DMS", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_empty-RMC", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_RV", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_AI-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_PP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_AB-ROA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_AB", "target": "W4_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_empty-ANN", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_CP-TVC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_DA", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_DA", "target": "W5_AI-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_RV", "weight": 89 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_PR-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_AI-ORT", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_BL-ORT", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_MC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty-ANN", "weight": 20 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_BL-PBC", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_TC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty-RRC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_RV-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_AP-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_ANN-CAPCOM", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_RR", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_CP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty-DFA", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RV", "target": "W4_AB", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_RV", "weight": 50 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty-ANN", "weight": 16 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty-ETU", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_AB", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_BL-PBC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty-DFA", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_AI-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_TC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty-ANC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RV", "target": "W5_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_CP-TVC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty-ANN", "weight": 16 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_RV", "weight": 17 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty-MAJ", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_MC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty-DFA", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty-ETU", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_TC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_BL-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RV", "target": "W6_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_TC", "target": "W6_CP-TVC", "weight": 23 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_TC", "target": "W6_TC", "weight": 18 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_TC", "target": "W6_empty-ANN", "weight": 29 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_TC", "target": "W6_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_TC", "target": "W6_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_DA", "weight": 32 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_empty-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_empty-ANN", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_empty-DMS", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_AI-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_DA", "target": "W3_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_DA", "weight": 20 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_BL", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_IC-TVC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_DA", "target": "W4_PP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_ET", "target": "W3_ET", "weight": 16 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_ET", "target": "W3_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_ET", "target": "W3_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_ET", "target": "W3_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_ET", "target": "W3_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_ET", "target": "W3_BL-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_ET", "target": "W4_ET", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_ET", "target": "W4_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_ET", "target": "W4_BL", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_ET", "target": "W5_empty-ETU", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_ET", "target": "W5_ET", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_ET", "target": "W5_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_ET", "target": "W5_GC-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_ET", "target": "W5_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty", "weight": 138 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-RMC", "weight": 21 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-ANN", "weight": 17 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-PAD", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_MC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_RV", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_AI-ORT", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_AB", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_BL", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-ETU", "weight": 10 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_AU-PBC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-DOS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_ET-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_BL-ORT", "weight": 10 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-RRC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-DMS", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-ANC", "weight": 9 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_TC", "weight": 10 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_empty-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_CP-TVC", "weight": 11 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_BL-PBC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_PP-TVC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_AP-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_VA-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_empty", "target": "W2_ANN-SOGETREL 2015", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty", "weight": 98 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-RMC", "weight": 31 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_BL-ORT", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_AI-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_RV", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-PBC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_AB", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_TC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-DMS", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_CP-TVC", "weight": 18 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-ANN", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_PP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_RV-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_ET-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_BL", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-ETU", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_AU-PBC", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-RRC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-SOGETREL 2015", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_ET", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_BL-PBC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_BL-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_EP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_IC-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_PE-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-ANC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_empty", "target": "W3_empty-RMF", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty", "weight": 63 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_CP-TVC", "weight": 17 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_MC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-ANN", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_AI-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_AB", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-DMS", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-ETU", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_TC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-RMC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_AI-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_BL-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_AP-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_PP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_empty-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_empty", "target": "W4_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_empty", "weight": 29 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_empty-RRC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_BL-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_AI-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_CP-TVC", "weight": 17 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_BL-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_empty-RMC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_IC-TVC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_PP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_VA-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_empty", "target": "W5_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_empty", "weight": 14 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_AI-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_AP-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_empty-RMC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_EL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_empty-ETU", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_CP-TVC", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_PP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_BL-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_empty", "target": "W6_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_BL-PBC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_empty-ANN", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_empty-ETU", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_CP-TVC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_EL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_BL-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_empty", "target": "W7_AU-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_ET", "weight": 22 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_empty-PAD", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_empty-ETU", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_RR", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_empty", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_BL-ORT", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_VA-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_ET", "target": "W2_AP-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_AB", "weight": 24 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty-ANN", "weight": 35 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty-RMC", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty-RRC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_CP-TVC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_empty-DFA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_AB", "target": "W5_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_empty-RMC", "weight": 8 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_AB", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_CP-TVC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_empty-ANN", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_RV", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_empty-DFA", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_EL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_AB", "target": "W6_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_ET", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_empty-ANN", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_empty-DFA", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_PP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RV", "target": "W7_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_MC", "target": "W7_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_MC", "target": "W7_empty-RMC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_MC", "target": "W7_empty-ANN", "weight": 4 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_MC", "target": "W7_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_BL", "weight": 61 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_PR-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_BL-ORT", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_BL-PBC", "weight": 12 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_VA-PBC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_empty-ANN", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_MC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_empty", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_BL", "target": "W2_VA-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_BL", "weight": 50 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_BL-ORT", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_BL-PBC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_empty", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_AI-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_VA-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_empty-DFA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_BL", "target": "W3_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_BL", "weight": 29 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_BL-PBC", "weight": 18 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_BL-ROA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_BL", "target": "W4_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_VA-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_BL", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_BL-PBC", "weight": 9 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_PR-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_BL-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_BL", "target": "W5_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_BL-PBC", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_empty-PAD", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_VA-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_BL", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_BL-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_BL", "target": "W6_empty", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_TC", "target": "W7_CP-TVC", "weight": 6 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_TC", "target": "W7_TC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_TC", "target": "W7_empty-ANN", "weight": 12 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_AB", "target": "W7_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_AB", "target": "W7_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_AB", "target": "W7_IC-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RR", "target": "W2_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RR", "target": "W2_BL-ORT", "weight": 5 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RR", "target": "W2_RR", "weight": 19 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RR", "target": "W2_GC-PBC", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_ET", "target": "W8_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_TC", "target": "W8_empty-ANC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_BL", "target": "W7_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_BL", "target": "W7_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_DA", "target": "W8_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_DA", "target": "W8_empty-DFA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_DA", "target": "W6_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_DA", "target": "W6_DA", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_DA", "target": "W6_empty-DFA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_RR", "weight": 13 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_GC-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_PP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_BL-ORT", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RR", "target": "W3_TC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_BL-ORT", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_RR", "weight": 7 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_RV", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_TC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_VA-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W3_RR", "target": "W4_BL-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_DA", "target": "W7_empty-ANN", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_DA", "target": "W7_DA", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_RV", "target": "W8_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RR", "target": "W5_RR", "weight": 3 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RR", "target": "W5_empty-RMC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RR", "target": "W5_AB", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RR", "target": "W5_GC-REO", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RR", "target": "W5_GC-PBC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W4_RR", "target": "W5_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RR", "target": "W6_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RR", "target": "W6_CP-TVC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_RR", "target": "W6_RR", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RF", "target": "W2_empty", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RF", "target": "W2_RF", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RF", "target": "W2_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W1_RF", "target": "W2_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_empty", "target": "W8_empty-RRC", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W7_empty", "target": "W8_empty-ETU", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W5_ET", "target": "W6_empty-ETU", "weight": 2 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W6_RR", "target": "W7_empty-DMS", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RF", "target": "W3_empty-ANN", "weight": 1 }
+{ "index" : { "_index" : "sankey_links", "_type" : "_doc"} }
+{ "type": "links", "source": "W2_RF", "target": "W3_empty-PAD", "weight":  1 }
