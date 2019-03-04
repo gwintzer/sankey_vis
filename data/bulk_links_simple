@@ -1,0 +1,16 @@
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_1", "target": "state_2_ok", "weight": 270 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_1", "target": "state_2_ko", "weight": 44 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_2_ok", "target": "state_3_ok", "weight": 80 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_2_ok", "target": "state_3_ko", "weight": 14 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_2_ok", "target": "state_3_postponed", "weight": 13 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_2_ko", "target": "state_3_ok", "weight": 3 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_3_postponed", "target": "state_4_retry", "weight": 12 }
+{ "index" : { "_index" : "sankey_data_simple", "_type" : "_doc"} }
+{ "source": "state_3_ok", "target": "state_4_ok", "weight": 55 }
