@@ -4,14 +4,14 @@ export default function (kibana) {
     name: 'sankey_vis',
     uiExports: {
       visTypes: [
-        'plugins/sankey_vis/sankey_vis'  //c'est ici qu'on définit qu'on veut un plugin visualize
+        'plugins/sankey_vis/sankey_vis'
       ]
     },
 
-    // config(Joi) {
-    //   return Joi.object({
-    //     enabled: Joi.boolean().default(true),
-    //   }).default();
-    // },
+    config(Joi) {
+      return Joi.object({
+        enabled: Joi.boolean().default(true),
+      }).default();
+    },
   });
 }

@@ -3,14 +3,12 @@
 
 export async function sankeyResponseHandler(table) {
 
-  // creation of nodes list from links (we keep only once each node)
-  const sourceField = table.columns.find(column => (column.aggConfig.__schema.name ==="bucket1"))
-  const targetField = table.columns.find(column => (column.aggConfig.__schema.name ==="bucket2"))
-  const weightField = table.columns.find(column => (column.aggConfig.__schema.name ==="metric"))
+  if (table.columns.length < 3) throw new Error("Please fill a source and target field")
 
-  if (!sourceField || !sourceField.id) throw new Error("Please fill a source field")
-  if (!targetField || !targetField.id) throw new Error("Please fill a target field")
-  if (!weightField || !weightField.id) throw new Error("Please fill a weight field")
+  // creation of nodes list from links (we keep only once each node)
+  const sourceField = table.columns[0]
+  const targetField = table.columns[1]
+  const weightField = table.columns[2]
 
   // put each source name into sourceRows variable
   let sourceRows = table.rows.map(row => { return row[sourceField.id] }) 

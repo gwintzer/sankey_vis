@@ -9,17 +9,12 @@ const d3 = {
   ...d3Sankey
 }
 
-//import data from '../data/data.json'
-
-
 // <SankeyChart/>
-export default ({vis, appState, updateStatus, visData}) => {
+export default ({vis, visData}) => {
 
   const mydata = visData
 
   console.log("vis", vis)
-  console.log("appState", appState)
-  console.log("updateStatus", updateStatus)
   console.log("visData ReactSankeyChart.js", visData)
   
 // VISUALIZATION CODE (DRAWING)

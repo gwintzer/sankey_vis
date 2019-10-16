@@ -1,5 +1,6 @@
 import ReactSankeyChart from './components/ReactSankeyChart'
 
+import { AggGroupNames } from 'ui/vis/editors/default'
 import { VisFactoryProvider } from 'ui/vis/vis_factory'
 import { VisTypesRegistryProvider } from 'ui/registry/vis_types'
 import { Schemas } from 'ui/vis/editors/default/schemas'
@@ -12,42 +13,32 @@ const SankeyVisType = (Private) => {
   return VisFactory.createReactVisualization({
     name: 'sankey_vis',
     title: 'Sankey',
-    type: 'table',
     icon: 'kqlFunction',
     description: 'Display a sankey visualization',
     visConfig: {
       component: ReactSankeyChart
     },
     responseHandler: sankeyResponseHandler,
-
     editorConfig: {
       schemas: new Schemas([
         {
-          group: 'metrics',
+          // description: "The metric to apply on links between nodes",
+          group: AggGroupNames.Metrics,
           name: 'metric',
-          title: 'node weight',
-          aggFilter: ['sum'],
+          title: 'links',
+          aggFilter: ['sum', 'count', 'min', 'max', 'avg'],
           min: 1,
           max: 1,
-          defaults: [
-            { type: 'sum', schema: 'metric' }
-          ]
+          defaults: [{ type: 'count', schema: 'metric' }]
         },
         {
-          group: 'buckets',
-          name: 'bucket1',
-          title: 'source field',
+          // description: "Select the two terms aggs containing source nodes then target node",
+          group: AggGroupNames.Buckets,
+          name: 'bucket',
+          title: 'source & target nodes',
           aggFilter: ['terms'],
-          min : 1,
-          max : 1
-        },
-        {
-          group: 'buckets',
-          name: 'bucket2',
-          title: 'target field',
-          aggFilter: ['terms'],
-          min : 1,
-          max : 1
+          min : 2,
+          max : 2
         }
       ])
     }
