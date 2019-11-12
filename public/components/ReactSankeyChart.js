@@ -14,8 +14,6 @@ export default ({vis, visData}) => {
 
   const mydata = visData
 
-  console.log("vis", vis)
-  console.log("visData ReactSankeyChart.js", visData)
   
 // VISUALIZATION CODE (DRAWING)
 
